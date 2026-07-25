@@ -1,0 +1,17 @@
+# Pinned to TensorFlow 2.10 — the last release with native Windows GPU support
+# (2.11+ requires WSL2 for GPU acceleration on Windows). If you're on Linux/macOS
+# or don't need GPU support, you can relax this pin.
+tensorflow==2.10.*
+tensorflow-probability==0.18.*
+
+# cv2.saliency requires the *contrib* build — plain opencv-python does not include it
+opencv-contrib-python
+
+Pillow
+numpy
+matplotlib
+tqdm
+ipython
+
+# Added in the second half of the project, alongside training and evaluation:
+#   pandas, seaborn, scikit-learn

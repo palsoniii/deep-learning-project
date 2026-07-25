@@ -1,0 +1,28 @@
+# dataset (not committed — see README for how to source/organize it)
+Indian-monuments/
+images/
+*_processed/
+saliency_crops/
+
+# pipeline outputs
+models/
+logs/
+results/
+visualizations/
+*.keras
+*.h5
+
+# jupyter
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
